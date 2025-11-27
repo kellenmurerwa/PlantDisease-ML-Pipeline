@@ -11,3 +11,5 @@ streamlit>=1.0.0
 requests>=2.25.0
 kaggle>=1.5.12
 locust>=2.9.0
+python-multipart>=0.0.6
+aiofiles>=23.1.0

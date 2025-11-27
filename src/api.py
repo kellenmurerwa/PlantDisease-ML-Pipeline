@@ -1,6 +1,6 @@
 from fastapi import FastAPI, File, UploadFile, BackgroundTasks
 from fastapi.responses import JSONResponse
-from prediction import predict, load, preprocess
+from .prediction import predict, load, preprocess
 import uvicorn
 import shutil
 import uuid
