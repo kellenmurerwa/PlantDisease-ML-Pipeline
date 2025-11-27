@@ -8,8 +8,12 @@ An end-to-end machine learning pipeline for plant disease classification using t
 
 **Watch the project in action:**
 
-![PlantDisease ML Pipeline Demo](https://youtu.be/vpNCejv6Qsk)
+[PlantDisease ML Pipeline Demo](https://youtu.be/vpNCejv6Qsk)
 
+
+## Demo Links
+- Backend: [https://plantdisease-api.onrender.com/docs](https://plantdisease-api.onrender.com/docs)
+- UI: [https://plantdisease-ui.onrender.com](https://plantdisease-ui.onrender.com)
 
 ## 📋 Project Description
 
@@ -226,15 +230,15 @@ curl -X POST "http://localhost:8000/predict" \
 
 ## 🌐 Deployed URLs & Resources
 
-| Resource | URL | Status |
-|----------|-----|--------|
-| **API Documentation (Swagger)** | `http://localhost:8000/docs` | Local |
-| **API Alternative Docs (ReDoc)** | `http://localhost:8000/redoc` | Local |
-| **Web UI** | `http://localhost:8501` | Local |
-| **Locust Load Testing** | `http://localhost:8089` | Local |
-| **GitHub Repository** | https://github.com/kellenmurerwa/PlantDisease-ML-Pipeline | Public |
-| **Kaggle Dataset** | https://www.kaggle.com/datasets/emmarex/plantdisease | Public |
-| **Docker Hub** | *[To be added]* | - |
+| Resource                         | URL                                                       | Status |
+| -------------------------------- | --------------------------------------------------------- | ------ |
+| **API Documentation (Swagger)**  | `http://localhost:8000/docs`                              | Local  |
+| **API Alternative Docs (ReDoc)** | `http://localhost:8000/redoc`                             | Local  |
+| **Web UI**                       | `http://localhost:8501`                                   | Local  |
+| **Locust Load Testing**          | `http://localhost:8089`                                   | Local  |
+| **GitHub Repository**            | https://github.com/kellenmurerwa/PlantDisease-ML-Pipeline | Public |
+| **Kaggle Dataset**               | https://www.kaggle.com/datasets/emmarex/plantdisease      | Public |
+| **Docker Hub**                   | *[To be added]*                                           | -      |
 
 ### Production Deployment URLs (Example)
 
@@ -463,17 +467,17 @@ Request Types:
 
 #### Performance Results
 
-| Metric | Value | Status |
-|--------|-------|--------|
-| **Total Requests** | 12,450 | ✅ |
-| **Successful Requests** | 12,380 | 99.4% |
-| **Failed Requests** | 70 | 0.6% |
-| **Avg Response Time** | 245 ms | ✅ Good |
-| **Median Response Time** | 180 ms | ✅ Optimal |
-| **95th Percentile** | 650 ms | ✅ Acceptable |
-| **99th Percentile** | 1,200 ms | ✅ Acceptable |
-| **Requests/Second (Peak)** | 41.5 req/s | ✅ Good |
-| **Requests/Second (Avg)** | 41.4 req/s | ✅ Stable |
+| Metric                     | Value      | Status       |
+| -------------------------- | ---------- | ------------ |
+| **Total Requests**         | 12,450     | ✅            |
+| **Successful Requests**    | 12,380     | 99.4%        |
+| **Failed Requests**        | 70         | 0.6%         |
+| **Avg Response Time**      | 245 ms     | ✅ Good       |
+| **Median Response Time**   | 180 ms     | ✅ Optimal    |
+| **95th Percentile**        | 650 ms     | ✅ Acceptable |
+| **99th Percentile**        | 1,200 ms   | ✅ Acceptable |
+| **Requests/Second (Peak)** | 41.5 req/s | ✅ Good       |
+| **Requests/Second (Avg)**  | 41.4 req/s | ✅ Stable     |
 
 #### Detailed Endpoint Results
 
@@ -495,11 +499,11 @@ Request Types:
 #### Stress Test Results
 
 | Load Level | Users | Req/s | Avg Response | Success Rate |
-|-----------|-------|-------|--------------|--------------|
-| Normal | 10 | 8.2 | 120 ms | 100% |
-| Medium | 50 | 35.1 | 180 ms | 99.8% |
-| High | 100 | 41.5 | 245 ms | 99.4% |
-| Peak | 200 | 42.1 | 680 ms | 98.2% |
+| ---------- | ----- | ----- | ------------ | ------------ |
+| Normal     | 10    | 8.2   | 120 ms       | 100%         |
+| Medium     | 50    | 35.1  | 180 ms       | 99.8%        |
+| High       | 100   | 41.5  | 245 ms       | 99.4%        |
+| Peak       | 200   | 42.1  | 680 ms       | 98.2%        |
 
 #### Key Findings
 
