@@ -29,6 +29,6 @@ def train(train_gen, val_gen, epochs=10, out_path="models/plantnet_v1.h5"):
 
 if __name__ == "__main__":
     import json
-    from preprocessing import get_generators
+    from .preprocessing import get_generators
     train_gen, val_gen = get_generators(batch_size=32)
     model, history = train(train_gen, val_gen, epochs=15)
