@@ -8,7 +8,7 @@ An end-to-end machine learning pipeline for plant disease classification using t
 
 **Watch the project in action:**
 
-![PlantDisease ML Pipeline Demo](https://youtu.be/vpNCejv6Qsk)
+[PlantDisease ML Pipeline Demo](https://youtu.be/vpNCejv6Qsk)
 
 
 ## 📋 Project Description
